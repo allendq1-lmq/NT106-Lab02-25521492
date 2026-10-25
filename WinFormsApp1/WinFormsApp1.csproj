@@ -9,8 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.13" />
     <PackageReference Include="System.Data.SQLite" Version="2.0.4" />
-    <PackageReference Include="System.Text.Json" Version="10.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormBai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormBai05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormBai07.cs" />
   </ItemGroup>
 
 </Project>
