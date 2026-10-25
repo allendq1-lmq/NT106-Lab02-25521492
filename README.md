@@ -1,12 +1,10 @@
-# NT106-Lab02 - Quản lý Món ăn & Cơ sở dữ liệu SQLite
-
-Ứng dụng Windows Forms (C# .NET 8) quản lý danh sách món ăn, thông tin nhà cung cấp và hiển thị hình ảnh cục bộ, phục vụ bài tập thực hành môn Lập trình mạng (NT106).
+# NT106.R14.2 Lab02 - File và I/O Stream trong C#
 
 ## Chức năng chính
-- Kết nối và quản lý cơ sở dữ liệu **SQLite**.
-- Hiển thị danh sách món ăn trên giao diện `ListView`.
-- Tải và hiển thị hình ảnh cục bộ theo đường dẫn thực thi.
-- Hỗ trợ xem ngẫu nhiên món ăn và thông tin nhà cung cấp.
+Cung cấp khả năng khởi tạo, đọc, viết và khả năng cập nhật File.
+• Hiểu được luồng thông tin (Stream) trong C#.
+• Có thể sử dụng được các lớp FileStream, lớp StreamReader, lớp StreamWriter và
+lớp BinaryFormatter để đọc và viết các đối tượng vào trong các File
 
 ## Tác giả
 - Họ tên: Lê Minh Quân
